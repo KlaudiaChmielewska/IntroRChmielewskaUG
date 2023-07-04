@@ -332,6 +332,9 @@ div.tocify {
 <li>
   <a href="about.html">About</a>
 </li>
+<li>
+  <a href="first.html">First</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -600,8 +603,26 @@ aesthetics</em></strong></div>
 </div>
 <hr />
 </div>
-<div id="creating-our-first-project" class="section level2">
-<h2>Creating our first Project</h2>
+<div id="creating-your-first-project" class="section level2">
+<h2>Creating your first Project</h2>
+<ul>
+<li>First thing you need to do is set up a new project now. Treat a
+project as your organisational unit for the Project you work on - keep
+every file related to that project there! For example, if you wanted to
+create an R program, you could create a project to store the executable
+.R file, together with the .Rmd file, providing more insights into the
+work.</li>
+<li>This seems like a boring necessity now - you might feel the urge of
+skipping this part. Find the power within you to oppose that
+feeling!</li>
+</ul>
+<p><br />
+</p>
+<div class="float">
+<img src="Project1.png" alt="Fig. 8. Define Code Editor aesthetics" />
+<div class="figcaption"><strong><em>Fig. 8. Define Code Editor
+aesthetics</em></strong></div>
+</div>
 </div>
 </div>
 <div id="create-your-own-working-directory-and-a-new-project"
@@ -657,7 +678,7 @@ not:</p>
 ## Running under: macOS Catalina 10.15.7
 ## 
 ## Matrix products: default
-## BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRblas.0.dylib
 ## LAPACK: /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
@@ -667,23 +688,25 @@ not:</p>
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] digest_0.6.31   R6_2.5.1        lifecycle_1.0.3 jsonlite_1.8.4  magrittr_2.0.3  evaluate_0.20  
-##  [7] stringi_1.7.12  cachem_1.0.7    rlang_1.1.0     cli_3.6.1       rstudioapi_0.14 jquerylib_0.1.4
-## [13] bslib_0.4.2     vctrs_0.6.1     rmarkdown_2.21  tools_4.2.3     stringr_1.5.0   glue_1.6.2     
-## [19] xfun_0.39       yaml_2.3.7      fastmap_1.1.1   compiler_4.2.3  htmltools_0.5.5 knitr_1.42     
+##  [1] digest_0.6.31   R6_2.5.1        lifecycle_1.0.3 jsonlite_1.8.4 
+##  [5] magrittr_2.0.3  evaluate_0.20   stringi_1.7.12  cachem_1.0.7   
+##  [9] rlang_1.1.0     cli_3.6.1       rstudioapi_0.14 jquerylib_0.1.4
+## [13] bslib_0.4.2     vctrs_0.6.1     rmarkdown_2.21  tools_4.2.3    
+## [17] stringr_1.5.0   glue_1.6.2      xfun_0.39       yaml_2.3.7     
+## [21] fastmap_1.1.1   compiler_4.2.3  htmltools_0.5.5 knitr_1.42     
 ## [25] sass_0.4.5</code></pre>
 <p>#Which will print a big set of data in the Console for you to
 inspect.</p>
 <p>#If you don’t see a package you need loaded (but you now you have it)
 ’ library ’ function loads packages to the working space</p>
 <pre class="r"><code>library(&quot;tidyverse&quot;)</code></pre>
-<pre><code>## ── Attaching core tidyverse packages ──────────────────────────────────────────────────── tidyverse 2.0.0 ──
+<pre><code>## ── Attaching core tidyverse packages ─────────────────────────────────────────────────────────────────────────────────── tidyverse 2.0.0 ──
 ## ✔ dplyr     1.1.2     ✔ readr     2.1.4
 ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
 ## ✔ ggplot2   3.4.2     ✔ tibble    3.2.1
 ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
 ## ✔ purrr     1.0.1     
-## ── Conflicts ────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
 ## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>

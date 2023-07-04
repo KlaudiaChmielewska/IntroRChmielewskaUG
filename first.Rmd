@@ -145,7 +145,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ***
 
-## Creating our first Project
+## Creating your first Project
+
+* First thing you need to do is set up a new project now. Treat a project as your organisational unit for the Project you work on - keep every file related to that project there! For example, if you wanted to create an R program, you could create a project to store the executable .R file, together with the .Rmd file, providing more insights into the work.
+* This seems like a boring necessity now - you might feel the urge of skipping this part. Find the power within you to oppose that feeling!
+
+\
+
+
+![**_Fig. 8. Define Code Editor aesthetics_**](Project1.png)
+
 
 # Create your own working directory and a new project
 ```{r}
