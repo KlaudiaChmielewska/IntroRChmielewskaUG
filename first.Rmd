@@ -15,10 +15,7 @@ output:
     theme: darkly
     
 
-    
-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
 
-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
 ---
 
 ```{r setup, include=FALSE}
@@ -27,6 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ***
+#     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
+
+# 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
+
 
 > **_Welcome to the course!_**
 

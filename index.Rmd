@@ -1,9 +1,10 @@
 ---
-title: "My Website"
+title: "Introduction to R"
+author: "Klaudia Chmielewska, Uni of Gdansk"
+output:    
+  html_document:
+    theme: darkly
 ---
-
-Hello, Website!
-
 
 > **_Welcome to the course!_**
 
