@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 # 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
+# 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
 
 # library(gitcreds)
 # gitcreds_set()
