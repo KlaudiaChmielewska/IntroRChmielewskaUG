@@ -1,0 +1,19 @@
+---
+title: "My Website"
+---
+
+Hello, Website!
+
+
+> **_Welcome to the course!_**
+
+* *During the next couple of weeks you'll learn how to write code in R and use it for data analysis, statistics, program creation and document/site creation.*
+* *<span style="text-decoration:underline">Actually the file you see right now was created via R!</span>*
+* _R was released in 1993 and its name refers to the first letter of the names of its developers, **R**oss Ihaka and **R**obert Gentleman from the University of Auckland._
+* *In the begining R was mostly used by academics, but now R is used by economists, healthcare, government, retail or social media  workers*
+* *For example, __MatPat__, a youtuber known as __Game Theorist__, has built his YT empire thanks to analyzing how his audience reacted to his videos. He made his first YT channel as a "portfolio" allowing his potential employer to see he knows what he's doing - which later landed him a job in a company that offered analytics and channel growth suggestions for youtubers. Now MatPat doesn't even need that job because he himself has gathered an audience of more than 36 million people! All because he analyzed data!*
+* *R is also used by Uber, Facebook, Google, Twitter to process user data*
+* *You can read more on the applicability of __R__ *[*here*](https://stackoverflow.blog/2017/10/10/impressive-growth-r/)
+
+
+***
