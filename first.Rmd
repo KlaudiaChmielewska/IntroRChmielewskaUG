@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #     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
 
 # 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
+# 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
 
 
 > **_Welcome to the course!_**
