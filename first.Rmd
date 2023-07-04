@@ -29,6 +29,8 @@ knitr::opts_chunk$set(echo = TRUE)
 # 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
 # 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
 
+# now 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
+
 # library(gitcreds)
 # gitcreds_set()
 # credentials::set_github_pat(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)
