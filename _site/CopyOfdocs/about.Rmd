@@ -1,9 +1,0 @@
----
-title: "Introduction to R"
-author: "Klaudia Chmielewska, Uni of Gdansk"
-output:    
-  html_document:
-    theme: darkly
----
-
-More about this website.
