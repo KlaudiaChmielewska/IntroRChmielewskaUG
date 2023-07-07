@@ -1,8 +1,7 @@
 ---
-title: "__*Introduction to R*__"
+title: "__Introduction to R__"
 subtitle: "*Lesson 1*"
-author: "*Klaudia Chmielewska* Uni of Gdansk"
-date: "`r Sys.Date()`" # will change the date to now at knitting
+author: "__*Klaudia Chmielewska*__"
 output:    
   html_document:
     includes:
@@ -23,39 +22,14 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-***
-
-
-# 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
-# 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
-
-# now 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
-
-# library(gitcreds)
-# gitcreds_set()
-# credentials::set_github_pat(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)
-
-> **_Welcome to the course!_**
-
-* *During the next couple of weeks you'll learn how to write code in R and use it for data analysis, statistics, program creation and document/site creation.*
-* *<span style="text-decoration:underline">Actually the file you see right now was created via R!</span>*
-* _R was released in 1993 and its name refers to the first letter of the names of its developers, **R**oss Ihaka and **R**obert Gentleman from the University of Auckland._
-* *In the begining R was mostly used by academics, but now R is used by economists, healthcare, government, retail or social media  workers*
-* *For example, __MatPat__, a youtuber known as __Game Theorist__, has built his YT empire thanks to analyzing how his audience reacted to his videos. He made his first YT channel as a "portfolio" allowing his potential employer to see he knows what he's doing - which later landed him a job in a company that offered analytics and channel growth suggestions for youtubers. Now MatPat doesn't even need that job because he himself has gathered an audience of more than 36 million people! All because he analyzed data!*
-* *R is also used by Uber, Facebook, Google, Twitter to process user data*
-* *You can read more on the applicability of __R__ *[*here*](https://stackoverflow.blog/2017/10/10/impressive-growth-r/)
-
-
-***
-\
 \
 
-# How do I start?
-
+# *<span style="text-decoration:underline">How do I start?</span>*
 \
 
 ## Instalation
 \
+
 
 * First, you need to download R through one of the mirrors [*here*](https://cran.r-project.org/mirrors.html) or directly use the Polish mirror [*here*](https://cran.mi2.ai)
 
@@ -92,7 +66,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ***
 
-## Setting up our work
+## Setting up your work
 \
 
 * First, we need to adjust RStudio to our needs. To do so, find Global Options and check what options are adjustable. Keep in mind that everyone has different preferences, hence you need to find what works best for you!
@@ -149,8 +123,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ***
+\
 
 ## Creating your first Project
+\
 
 * First thing you need to do is set up a new project now. Treat a project as your organisational unit for the Project you work on - keep every file related to that project there! For example, if you wanted to create an R program, you could create a project to store the executable .R file, together with the .Rmd file, providing more insights into the work.
 * This seems like a boring necessity now - you might feel the urge of skipping this part. Find the power within you to oppose that feeling!
@@ -158,29 +134,62 @@ knitr::opts_chunk$set(echo = TRUE)
 \
 
 
-![**_Fig. 8. Define Code Editor aesthetics_**](Project1.png)
+<div class = "row">
+  
+<div class = "col-md-6">
+![**_Fig. 8. Start a new project to work in!_**](Project11.png)
+</div>
+  
+<div class = "col-md-6">
+Being in a project helps you to be more organised! It'll help you avoid loosing your files. If you earlier set Global Options to save your workspace after closing, your project will be updated automatically!
+</div>
+</div>
+
+\
+
+<div class = "row">
+  
+<div class = "col-md-8">
+![**_Fig. 9. Pick the type of the project._**](Project2.png)
+</div>
+
+<div class = "col-md-4">
+
+This might be more important when you're more comfortable with R! 
+\
+Not only can you create a project out of already existing directory, but also start a GitHub-related project - this might be useful if you wanted to create a small website with R! 
+\
+You could link your project to a repository in GitHub and further render your RMarkdown file into HTML and publish it! 
+\
+*<span style="text-decoration:underline">Just as the site you see right now!</span>*
+</div>
+</div>
+
+\
+\
+<div class = "row">
+  
+<div class = "col-md-8">
+
+![**_Fig. 10. Pick the type of the project._**](Project3.png)
+</div>
+<div class = "col-md-4">
+If you were to link your project to GitHub, next window you'd see would be asking you to put the link and the name of the repository related to this project. This allows you not only to have an online copy of your work, but also to create your GitHub Pages site.
+
+</div>
+</div>
+
+\
+\
+
+***
+\
+\
 
 
-# Create your own working directory and a new project
-```{r}
+# *<span style="text-decoration:underline">Let's code!</span>*
 
-```
-#File->NewProject->NewDirectory->NewProject
-#DirectoryName: ourstudentnumber_R1 ->subdirectory "your folder"-> OK
-#Now click on the small icon with a blank piece of paper and a '+'and choose 'R Script'
-#If you didn't have the code editor open - now it should open itself! You can add new Folders or Files in the right-bottom part of RStudio, This helps you organize your project!
-```
-
-#It is useful to check the Options:
-```{r}
-
-#Tools->Global Options
-#Where you can not only see/change a current working directory, but also decide if we want to load our last work the next time we open RStudio:
-#Workspace: Click/unclick "Restore .RData into workspace at startup"
-#and decide if RStudio should Save workspace to .RData on exit!!!
-```
-
-##There are 3 ways to run your R code 
+## There are 3 ways to run your R code 
 ```{r}
 #1. You can just type/paste it at the console and click Enter
 #2.1 Execute code from a source file: source("mycode.R")

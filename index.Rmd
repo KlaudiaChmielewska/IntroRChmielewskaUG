@@ -1,10 +1,15 @@
 ---
-title: "Introduction to R"
-author: "Klaudia Chmielewska, Uni of Gdansk"
+title: "__*Introduction to R*__"
+subtitle: "*Course for Digital Chemistry, University of Gdansk*"
+author: "*Klaudia Chmielewska*"
 output:    
   html_document:
     theme: darkly
 ---
+
+\
+\
+\
 
 > **_Welcome to the course!_**
 

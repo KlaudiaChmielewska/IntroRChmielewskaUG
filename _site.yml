@@ -1,13 +1,13 @@
 ---
-name: "my-website"
+name: "Introduction to R, University of Gdansk"
 navbar:
-  title: "My Website"
+  title: "Intro to R"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-    - text: "First"
+    - text: "Lesson 1"
       href: first.html
   output:
     html_document:
