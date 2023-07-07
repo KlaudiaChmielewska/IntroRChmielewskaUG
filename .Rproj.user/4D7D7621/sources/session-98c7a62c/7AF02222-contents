@@ -10,7 +10,8 @@ navbar:
     - text: "Lesson 1"
       href: first.html
   output:
+    output_dir: docs
     html_document:
       theme: cosmo
-      output_dir: docs
+
 ---

@@ -3,7 +3,7 @@
     "path": "~/Documents/Zajecia/R/23_24/R1_data/IntroR_main/_site.yml",
     "project_path": "_site.yml",
     "type": "yaml",
-    "hash": "3776980952",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1688480866333.0,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1688734169,
+    "lastKnownWriteTime": 1688734665,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1688734169088,
+    "last_content_update": 1688734665,
     "read_only": false,
     "read_only_alternatives": []
 }
