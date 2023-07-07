@@ -1,26 +1,26 @@
 {
-    "id": "89E438D9",
+    "id": "DC7918A7",
     "path": "~/Documents/Zajecia/R/23_24/R1_data/IntroR_main/first.Rmd",
     "project_path": "first.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1972041682",
     "contents": "",
     "dirty": false,
-    "created": 1688473676017.0,
+    "created": 1688734045437.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 14,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "185,1",
-        "scrollLine": "0"
+        "cursorPosition": "899,0",
+        "scrollLine": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1688733382,
+    "lastKnownWriteTime": 1688734120,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1688729722928,
+    "last_content_update": 1688734120735,
     "read_only": false,
     "read_only_alternatives": []
 }

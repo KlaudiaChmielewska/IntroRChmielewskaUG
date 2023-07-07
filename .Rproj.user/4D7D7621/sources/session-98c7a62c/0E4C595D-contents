@@ -1,12 +1,17 @@
-name: "cars"
-  output_dir: "docs"
-  navbar:
-    title: "Cars"
-    left:
+---
+name: "Introduction to R, University of Gdansk"
+navbar:
+  title: "Intro to R"
+  left:
     - text: "Home"
-        href: index.html
-    - text: "Speed and Distance"
-        href: first.html
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Lesson 1"
+      href: first.html
   output:
+    output_dir: docs
     html_document:
       theme: cosmo
+
+---

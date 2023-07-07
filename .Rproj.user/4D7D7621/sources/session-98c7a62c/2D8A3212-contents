@@ -1,5 +1,17 @@
 ---
-title: "About This Website"
+title: "About"
+author: "Klaudia Chmielewska, Uni of Gdansk"
+output:    
+  html_document:
+    theme: darkly
 ---
 
-More about this website.
+Hello, Website!
+
+
+> **_Welcome to the course!_**
+
+* I'm Klaudia
+
+
+***
