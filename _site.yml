@@ -9,8 +9,12 @@ navbar:
       href: about.html
     - text: "Lesson 1"
       href: first.html
-  output:
-    html_document:
+    
+html_document:
       theme: cosmo
+      
+output:
+      name: IntroRChmielewskaUG
       output_dir: docs
+
 ---
